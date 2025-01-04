@@ -90,3 +90,28 @@ header{
 .failures-content ul>li{
     margin-bottom: 8px;
 }
+
+/* plans section styles */
+
+.plans-title{
+    text-align: center;
+}
+
+.plans-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0 130px 0;
+}
+
+.plan{
+    text-align: center;
+}
+
+.plan-title{
+    margin: 20px 0 15px 0;
+}
+
+.plan-text{
+    color: #444343;
+}
