@@ -6,7 +6,7 @@
 /* common styles */
 
 .container{
-    width: 80vw;
+    width: 70vw;
     margin: 0 auto;
 }
 
@@ -24,6 +24,17 @@
     cursor: pointer;
     color: black;
     font-weight: bold;
+}
+
+.section-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.section-paragraph{
+    color: #444343;
+    font-size: 16px;
+    margin: 25px 0;
 }
 
 /* header styles */
@@ -53,4 +64,29 @@ header{
     color: #444343;
     margin: 30px 0;
     font-size: 16px;
+}
+
+/* main styles */
+
+/* failures section styles */
+
+.failures{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 130px 0;
+}
+
+.failures-content{
+    width: 400px;
+}
+
+.failures-content ul{
+    padding: 0;
+    list-style-type: none;
+    color: #444343;
+}
+
+.failures-content ul>li{
+    margin-bottom: 8px;
 }
