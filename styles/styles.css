@@ -20,9 +20,23 @@
 }
 
 .btn-primary:hover{
-    background-color: #ff7037;
+    color: #F15B22;
+    background-color: white;
     cursor: pointer;
-    color: black;
+    font-weight: bold;
+}
+
+.btn-secondary{
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: 0;
+    color: #F15B22;
+    background-color: white;
+}
+
+.btn-secondary:hover{
+    cursor: pointer;
     font-weight: bold;
 }
 
@@ -114,4 +128,26 @@ header{
 
 .plan-text{
     color: #444343;
+}
+
+/* CTA section styles */
+
+.cta-module{
+    background-image: url('/images/gradient.png'), url('/images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 130px;
+    border-radius: 5px;
+    border: 0;
+    padding-left: 70px;
+    padding-top: 100px;
+}
+
+.cta-text{
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 25px;
+    width: 460px;
 }
